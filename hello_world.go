@@ -1,5 +1,5 @@
 package hello_world
 
-func HelloWorld() string {
-	return "Hello world update"
+func HelloWorld(name string) string {
+	return "Hello " + name
 }
